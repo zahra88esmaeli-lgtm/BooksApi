@@ -44,7 +44,7 @@
 
 1. مخزن را clone کنید:
    ```
-   git clone <your-repo-url>
+   git clone <https://github.com/zahra88esmaeli-lgtm/BooksApi.git>
    ```
 2. solution را در Visual Studio باز کنید (یا از ترمینال استفاده کنید).
 3. دیتابیس را بسازید:

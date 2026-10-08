@@ -42,7 +42,7 @@ A simple ASP.NET Core Web API for managing books, built with C#, .NET 10, EF Cor
 
 1. Clone the repository:
    ```
-   git clone <your-repo-url>
+   git clone <https://github.com/zahra88esmaeli-lgtm/BooksApi.git>
    ```
 2. Open the solution in Visual Studio (or use the terminal).
 3. Create the database:

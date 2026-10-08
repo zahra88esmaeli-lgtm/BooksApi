@@ -1,0 +1,50 @@
+
+
+@host=https://localhost:7082
+### 1) Add a book
+POST {{host}}/api/book
+Content-Type: application/json
+
+{ 
+"title": "Clean Code2",
+"author": "Robert Martin",
+"publishedDate":"2020-02-05"}
+
+### 
+POST {{host}}/api/book
+Content-Type: application/json
+
+{
+  "title": "Clean Code",
+  "author": "Robert C. Martin",
+  "publishedDate": "2008-08-01"
+}
+
+### Add book 2
+POST {{host}}/api/book
+Content-Type: application/json
+
+{
+  "title": "The Pragmatic Programmer",
+  "author": "Andrew Hunt",
+  "publishedDate": "1999-10-20"
+}
+
+### 2) Get all books
+GET {{host}}/api/book
+
+### 3) Get one book
+GET {{host}}/api/book/1
+
+### 4) Update
+PUT {{host}}/api/book/1
+Content-Type: application/json
+
+{ "id": 1, 
+"title": "Clean Code 2nd",
+"author": "Robert Martin" }
+
+### 5) Delete
+DELETE {{host}}/api/book/1
+
+
